@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RTC Clone</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script> 
+   
+  <div class="header" id="header">
+    <span style="font-size: 32px; font-weight: bold;"> Intership Cohort Program 6.0 </span> <span
+      style="font-size: 20px;">batch is starting from 15<sup>th</sup> August. </span>
+    <a href="tel:7821011979" style="font-size: 20px; margin-left: 15px;" > 📞Call Now +91-7821011979</a>
+  </div>
+  <nav class="navbar navbar-expand-lg py-1 navbar-rtc" >
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="./img/icons/rtclogo.png" alt="" height="40px"> Road To Code</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Spaceship</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Intership</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Development Service</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              About US
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#team">Team</a></li>
+              <li><a class="dropdown-item" href="#">FAQ</a></li>
+              <li><a class="dropdown-item" href="#contact-us">Contact Us</a></li>
+              <li><a class="dropdown-item" href="#">Logout</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">LogIn</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <div class="container">
+    <!-- Stack the columns on mobile by making one full-width and the other half-width -->
+    <div class="row">
+      <div class="col-md-6"><img src="./img/icons/student-icon.jpg" alt="" height="450px"></div>
+      <div class="col-md-5 quality">
+        <h1>Quality courses at affordable pricing, trusted by 1500+ students.</h1>
+        <p style="font-size: 25px; text-align: left; margin-top:"> Our aim is to provide affordable computer
+          science education for
+          everyone.</p>
+        <button type="button" class="btn btn-primary"> <img src="./img/icons/search-icon.png" alt="" height="20px"
+            class="img-btn0"> <a href="#courses" class="btn-courses">Explore Courses</a></button>
+        <button type="button" class="btn-callus"> <img src="./img/icons/calling.png" alt="" height="20px"
+            class="img-btn01">Call Now</button>
+      </div>
+    </div>
+    <div class="row">
+      <h2 style="color: rgb(236, 79, 131); margin-top: 20px;">UNIQUE Feature of RTC</h2>
+      <h2 class="mb-4">Learn by building and breaking stuff.</h2>
+
+      <div class="col-md-4">
+        <div class="card">
+          <img src="./img/icons/icons8-google-meet-48.png" width="50px" class="img-feature">
+          <p class="my-2" style="font-size: 25px; padding-left: 10px;">Live and interactive classes.</p>
+        </div>
+
+        <div class="card">
+          <img src="./img/icons/structured-learning.png" width="50px" class="img-feature">
+          <p style="font-size: 25px; padding-left: 10px; ">Structured Learning.</p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card">
+          <img src="./img/icons/recorded-video.png" width="50px" class="img-feature">
+          <p style="font-size: 25px; padding-left: 10px; ">Recorded videos of live classes.</p>
+        </div>
+        <div class="card">
+          <img src="./img/icons/doubt-solving.png" width="50px" class="img-feature">
+          <p style="font-size: 25px; padding-left: 10px; ">1:1 Doubt Assistance.</p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <img src="./img/icons/studentWithTeacher.jpg" class="img-fluid">
+      </div>
+    </div>
+
+    <div class="row">
+      <h1 style="text-align: center; padding: 20px;" id="courses">Courses</h1>
+      <div class="col-md-4">
+        <div class="course-card">
+          <img src="./img/icons/icp.png" class="card-img-top">
+          <div class="card-body">
+            <h3 class="card-title">Internship Program 6.0</h3>
+            <p class="card-text">Learn Fullstack Development and Become Internship Ready in Just 4 Months 🚀 <br> <br>
+              <img src="./img/icons/date.png" alt="" height="30px">
+              Course Start DateStarting from 15th August 2023
+            </p>
+            <div class="course-prize">
+              <span class="courses-cost">Only at 999 /-</span>
+            </div>
+            <hr>
+            <a href="#" class="btn btn-primary card-btn">Know More</a>
+            <div class="empty-tag"> </div>
+          </div>
+        </div>
+
+        <div class="course-card">
+          <img src="./img/icons/python.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h3 class="card-title">Python Programming</h3>
+            <p class="card-text">Learn Python Programming from Scratch and Master the concepts of Object Oriented
+              Programming.<br>
+              <img src="./img/icons/date.png" alt="" height="30px">
+              Course Start DateStarting from 15th September 2023
+            </p>
+            <div class="course-prize">
+              <span class="courses-cost">Only at 499 /-</span>
+            </div>
+            <hr>
+            <a href="#" class="btn btn-primary card-btn">Know More</a>
+            <div class="empty-tag"> </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="course-card">
+          <img src="./img/icons/c.png" class="card-img-top">
+          <div class="card-body">
+            <h3 class="card-title">C Programming</h3>
+            <p class="card-text">Learn C Programming from Scratch and Kickstart your career in Computer Science. <br>
+              <br>
+              <img src="./img/icons/date.png" alt="" height="30px">
+              Course Start DateStarting from 15th October 2023
+            </p>
+            <div class="course-prize">
+              <span class="courses-cost">Only at 499 /-</span>
+            </div>
+            <hr>
+            <a href="#" class="btn btn-primary card-btn">Know More</a>
+            <div class="empty-tag"> </div>
+          </div>
+        </div>
+
+        <div class="course-card">
+          <img src="./img/icons/cpp.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h3 class="card-title">C++ Programming</h3>
+            <p class="card-text">Learn C++ Programming from Scratch and Master the concepts of Object Oriented
+              Programming. <br>
+              <img src="./img/icons/date.png" alt="" height="30px">
+              Course Start DateStarting from 1st September 2023
+            </p>
+            <div class="course-prize">
+              <span class="courses-cost">Only at 499 /-</span>
+            </div>
+            <hr>
+            <a href="#" class="btn btn-primary card-btn">Know More</a>
+            <div class="empty-tag"> </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="course-card">
+          <img src="./img/icons/dsa.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h3 class="card-title">Data Structure</h3>
+            <p class="card-text">Learn Data Structures and Algorithms from Scratch. <br> <br>
+              <img src="./img/icons/date.png" alt="" height="30px">
+              Course Start DateStarting from 15th October 2023
+            </p>
+            <div class="course-prize">
+              <span class="courses-cost">Only at 999 /-</span>
+            </div>
+            <hr>
+            <a href="#" class="btn btn-primary card-btn">Know More</a>
+            <div class="empty-tag"> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row" id="team">
+      <h1 style="text-align: center; padding: 10px;">Our Team</h1>
+      <p style="text-align: center; font-size: 22px; padding: 10px;">We are mad teachers/programmers who love to teach
+        and make students learn. </p>
+      <div class="col-md-3">
+        <div class="card">
+          <img src="./img/pictures/suraj sir.img.png" class="card-img-top" height="260px">
+          <div class="card-body">
+            <h4 class="member-name">Suraj Shende </h4>
+            <span class="card-text">Lead Instructor</span>
+            <img src="./img/icons/linkedin.png" height="25px"> <img src="./img/icons/github.png" height="40px">
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card">
+          <img src="./img/pictures/vaishnavi.img.png" class="card-img-top" alt="..." height="260px">
+          <div class="card-body">
+            <h4 class="member-name">Vaishnavi Hole </h4>
+            <span class="card-text">Teaching Assistance</span>
+            <img src="./img/icons/linkedin.png" height="25px"> <img src="./img/icons/github.png" height="40px">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card">
+          <img src="./img/pictures/anand sir.img.png" class="card-img-top" alt="..." height="260px">
+          <div class="card-body">
+            <h4 class="member-name">Anand Shirbhaiyye </h4>
+            <span class="card-text">Teaching Assistance</span>
+            <img src="./img/icons/linkedin.png" height="25px"> <img src="./img/icons/github.png" height="40px">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card">
+          <img src="./img/pictures/pinky.img.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h4 class="member-name">Vaibhavi Hole </h4>
+            <span class="card-text">Teaching Assistance</span>
+            <img src="./img/icons/linkedin.png" height="25px"> <img src="./img/icons/github.png" height="40px">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <h1 style="text-align: center; padding: 30px;">Learning is fun. Join us to learn more.</h1>
+
+  <div class="row footer" >
+    <div class="col-md-3">
+      <img src="./img/icons/rtclogo.png" height="50px" style="margin-top: 5px; margin-left: 10px;">
+      <span class="footer-heading">Road To Code</span>
+      <p style="padding: 20px;">Affordable Computer Science Education For Everyone. We Provide Quality courses which are
+        trusted by 1500+ students.</p>
+    </div>
+    <div class="col-md-3">
+      <span class="footer-heading">Quick Links</span> <br> <br>
+      <ul type="none">
+        <a href="#" class="anchor-list">
+          <li>Home</li>
+        </a>
+        <a href="#" class="anchor-list">
+          <li>Search</li>
+        </a>
+        <a href="#" class="anchor-list">
+          <li>Contact</li>
+        </a>
+        <a href="#" class="anchor-list">
+          <li>About</li>
+        </a>
+      </ul>
+    </div>
+    <div class="col-md-3">
+      <span class="footer-heading">Learn</span> <br> <br>
+      <ul type="none">
+        <a href="#" class="anchor-list">
+          <li>Full Stack Development</li>
+        </a>
+        <a href="#" class="anchor-list">
+          <li>C Programming</li>
+        </a>
+        <a href="#" class="anchor-list">
+          <li>C++ Programming</li>
+        </a>
+        <a href="#" class="anchor-list">
+          <li>Python Programming</li>
+        </a>
+      </ul>
+    </div>
+    <div class="col-md-3">
+      <span class="footer-heading" id="contact-us">Contact us</span> <br> <br>
+      <p style="font-size: 17px;"> 404, Laxmi Heights, Above Lotus Multi-speciality Hospital Manjari BK, <br> Pune -
+        412307. </p>
+      <ul type="none">
+        <a href="#" class="anchor-list">
+          <li> +91-8805803087</li>
+        </a>
+        <a href="#" class="anchor-list">
+          <li> suraj@roadtocode.org</li>
+        </a>
+      </ul>
+    </div>
+    <a href="#header">
+    <i class="fa-solid fa-arrow-up-from-bracket arrow-up"></i>
+  </a>
+  
+  </div>
+
+  <script src="https://kit.fontawesome.com/1c76a0075b.js" crossorigin="anonymous"></script>
+</body>
+</html>

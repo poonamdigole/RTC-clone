@@ -1,0 +1,149 @@
+.header {
+    text-align: center;
+    background-color: rgb(249, 203, 211);
+    padding: 10px;
+}
+.navbar-rtc{
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    background-color: #f8f2f2;
+
+}
+.nav-link {
+    font-size: 20px;
+    margin-left: 20px;
+}
+.navbar-brand{
+    font-size: 30px;
+    margin-right: 300px;
+    margin-left: 50px;
+}
+.quality{
+margin-top: 30px;
+}
+.btn-callus {
+    background-color:pink ;
+    border-radius: 5px;
+   border: none;
+padding-left: 20px;
+padding-right: 20px;
+padding-top: 7px;
+padding-bottom: 7px;
+margin-left: 55px;
+}
+.img-btn0{
+    margin-right: 10px;
+    border-radius: 50%;
+}
+.img-btn01 {
+    margin-right: 10px;
+    background-color: pink;
+    border-radius: 50%;
+}
+.card {
+    margin: 5px;
+}
+.img-feature{
+    padding: 5px;
+    border: solid 1px rgb(197, 192, 192);
+    margin: 10px;
+    border-radius: 5px;
+}
+.course-card{
+    margin: 10px;
+    border: solid 1px black;
+    height: 620px;
+    box-shadow: 0 0 15px 2px rgb(145, 145, 248);
+    margin-bottom: 20px;
+    vertical-align: bottom;
+}
+.btn-courses {
+    color: white;
+    text-decoration: none;
+}
+.card-text{
+    padding: 20px;
+    font-size: 17px;
+}
+.card-btn {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 150px;
+   margin-bottom: 10px;
+}
+.card-title{
+    padding: 15px;
+    text-align: center;
+}
+.courses-cost {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 15px;
+    border-bottom: 3px double rgb(4, 143, 4);
+}
+.empty-tag {
+    width: 100%;
+    height: 6px;
+    background-color: blue;
+    margin-top:25px ;
+}
+.member-name {
+    text-align: center;
+}
+.member-text {
+    font-size: 10px;
+} 
+.course-prize{
+    text-align: center;
+}
+.footer {
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    color: white;
+}
+.footer-heading
+{    display: inline-block;
+ padding-top: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 20px;
+   border-bottom: 2px solid rgb(243, 157, 171);
+    margin-left: 20px;
+   
+}
+.anchor-list {
+    color: white;
+    text-decoration: none;
+}
+.arrow-up 
+{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    font-size: 25px;
+    color:  white;
+    background-color: blueviolet;
+    padding: 10px;
+    border: none;
+    border-radius: 50%;
+    
+}
+ @media screen and (min-width: 600px) and (max-width: 800px) {
+    .footer{
+        height: 1000px;
+        background-color: black;
+    }
+}
+@media screen and (min-width: 801px) and (max-width: 1000px) {
+    .footer{
+        height: 500px;
+        background-color: black;
+    }
+} 
